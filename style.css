@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    background-color: black;
+}
+
+.grid-cell-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out;
+}
+
+.grid-cell-button:hover {
+    background-color: darkblue;
+}
