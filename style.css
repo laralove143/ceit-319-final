@@ -16,22 +16,10 @@
 }
 
 .grid-cell-button {
-    display: flex;
+    position: relative;
     overflow: hidden;
-    justify-content: center;
     border-radius: 20px;
-    text-align: center;
-    align-items: center;
-    font-size: xxx-large;
-    font-family: sans-serif;
-    font-weight: bold;
     cursor: pointer;
-}
-
-@media (max-width: 800px) {
-    .grid-cell-button {
-        font-size: xx-large;
-    }
 }
 
 .grid-cell-button:hover .grid-cell-button-text {
@@ -52,7 +40,14 @@
 
 .grid-cell-button-text {
     position: absolute;
-    padding: 50px;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    font-size: min(10vw, 72px);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
     transition: opacity 250ms;
     color: white;
 }
