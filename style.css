@@ -28,7 +28,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .grid-cell-button {
         font-size: xx-large;
     }
@@ -52,7 +52,7 @@
 
 .grid-cell-button-text {
     position: absolute;
-    padding: 25px;
+    padding: 50px;
     transition: opacity 250ms;
     color: white;
 }
