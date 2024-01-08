@@ -1,13 +1,32 @@
 .body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
     background-color: black;
-    margin: 2.5vh;
+}
+
+.text {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    color: deepskyblue;
+}
+
+.link:hover {
+    color: dodgerblue;
 }
 
 .grid-container {
+    overflow: hidden;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2.5vh;
+    margin: 2.5vh;
 }
 
 .grid-cell-button {
@@ -40,9 +59,13 @@
     width: 90%;
     transform: translate(-50%, -50%);
     font-size: min(4vw, 72px);
-    font-family: sans-serif;
     font-weight: bold;
     text-align: center;
     transition: opacity 250ms;
+}
+
+.footer {
+    margin-bottom: 2.5vh;
+    text-align: center;
     color: white;
 }
