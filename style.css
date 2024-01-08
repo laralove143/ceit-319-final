@@ -10,10 +10,6 @@
     grid-gap: 2.5vh;
 }
 
-.grid-container > div:last-child {
-    grid-column: 1 / -1;
-}
-
 .grid-cell-button {
     position: relative;
     overflow: hidden;
