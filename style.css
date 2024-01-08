@@ -58,14 +58,17 @@
     left: 50%;
     width: 90%;
     transform: translate(-50%, -50%);
-    font-size: min(4vw, 72px);
+    font-size: clamp(20px, 4vw, 72px);
     font-weight: bold;
     text-align: center;
     transition: opacity 250ms;
 }
 
 .footer {
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
     margin-bottom: 2.5vh;
-    text-align: center;
     color: white;
+    text-align: center;
+    font-size: max(16px, 1vw);
 }
