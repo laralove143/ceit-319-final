@@ -58,7 +58,7 @@
     left: 50%;
     width: 90%;
     transform: translate(-50%, -50%);
-    font-size: clamp(20px, 4vw, 72px);
+    font-size: clamp(20px, 4vw, 36px);
     font-weight: bold;
     text-align: center;
     transition: opacity 250ms;
