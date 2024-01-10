@@ -23,7 +23,7 @@
 .grid-container {
     overflow: hidden;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2.5vh;
     margin: 2.5vh;
@@ -34,6 +34,10 @@
     overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.lesson-plan-grid-cell-button {
+    grid-column: 1 / span 2;
 }
 
 .grid-cell-button:hover .grid-cell-button-text {
